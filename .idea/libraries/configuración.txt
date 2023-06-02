@@ -1,0 +1,16 @@
+PS C:\Users\Labtel\Downloads\lab6> git clone https://github.com/josue12lch98/sw1-lab6.git
+Cloning into 'sw1-lab6'...
+remote: Enumerating objects: 80, done.
+remote: Counting objects: 100% (80/80), done.
+remote: Compressing objects: 100% (49/49), done.
+Receiving objects: 100% (80/80), 52.28 KiB | 524.00 KiB/s, done.
+
+Resolving deltas: 100% (29/29), done.
+PS C:\Users\Labtel\Downloads\lab6> git remote remove origin
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Labtel\Downloads\lab6> cd .\sw1-lab6\
+PS C:\Users\Labtel\Downloads\lab6\sw1-lab6> git remote remove origin
+PS C:\Users\Labtel\Downloads\lab6\sw1-lab6> git remote add origin https://github.com/jchapo/LAB6_20125424.git
+PS C:\Users\Labtel\Downloads\lab6\sw1-lab6> git remote remove origin
+PS C:\Users\Labtel\Downloads\lab6\sw1-lab6> git remote add origin https://github.com/jchapo/LAB6_20125424.git
+PS C:\Users\Labtel\Downloads\lab6\sw1-lab6>
